@@ -3,10 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Projeto FlexBlog</title>
 </head>
 <body>
-    
+    <div id="superinfo-bg"> 
+        <div id="super-info">
+          <p>Seg/Sex- 08:00 ás 18:00</p>
+          <a href="tel:+5511963481211">+55 1199999999</a> 
+          <p>Av.ali perto, 330,São Paulo-SP</p>
+        </div>
+    </div> 
+
+    <header id="menu-bg">
+        <div class="menu">
+            <span>FlexBlog</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#preco">Preço</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1  id="introducao">Novos valores  e<br> propriedades de css</h1>
+    <section id="sobre">
+        <div class="sobre-info">
+            <h1>Sobre</h1>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente apropriadas objetivos.</p>
+        </div>
+        <div class="sobre-img">
+            <img src="/img/sobre1.jpg" alt="Sobre 1">
+        </div>    
+        <div class="sobre-img">
+            <img src="/img/sobre2.jpg" alt="sobre 2">
+        </div>
+    </section>
+    <section id="produtos">
+        <h1>Produtos</h1>
+        <div class="produtos-conteiner">
+            <div class="produtos-item purple">
+                <h2>Purple</h2>
+                <img src="/img/produtos1.jpg" alt="Produtos 1">
+            </div>
+            <div class="produtos-item Pink">
+                <h2>Pink</h2>
+                <img src="/img/produtos2.jpg" alt="Produtos 2">
+            </div>
+            <div class="produtos-item blue">
+                <h2>Blue</h2>
+                <img src="/img/produtos3.jpg" alt="Produtos 3">
+            </div>  
+        </div>
+    </section>
+    <section id="preco">
+        <div class="preco-item">
+            <h2>cobre</h2>
+            <span><sup>R$</sup>19</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+            </ul>
+            <input type="button" value="COMPRA">
+        </div>
+        <div class="preco-item">
+            <h2>Prata</h2>
+            <span><sup>R$</sup>39</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusivas</li>
+            </ul>
+            <input type="button" value="COMPRA">
+        </div>
+        <div class="preco-item">
+            <h2>Ouro</h2>
+            <span><sup>R$</sup>79</span>
+            <ul>
+                <li>Planos Ilimitados</li>
+                <li>Acesso Restrito</li>
+                <li>Conteúdo Secreto</li>
+                <li>Suporte 24h</li>
+                <li>Compra Exclusivas</li>
+                <li>Download dos itens</li>
+            </ul>
+            <button type="submit">COMPRAR</button>
+        </div>
+    </section>
+    <section id="qualidade">
+        <div class="qualidade-item">
+            <h2>Inteligente</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão</p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Compacto</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente.</p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Econômico</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão .</p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Transparente</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão.</p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Opaco</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente.</p>
+        </div>
+        <div class="qualidade-item">
+            <h2>Sustentável</h2>
+            <p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão.</p>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="newsletter-info">
+            <h1>NewsLetter</h1>
+            <p>assine e fique por dentro das novidades</p>
+        </div>
+        <form class="newsletter-form">
+            <input type="email" name="email-form" id="input-email" placeholder="Dígite seu E-mail">
+            <button type="submit">Assinar</button>
+        </form>
+    </section>
+    <footer>
+        <p>FlexBlog&copy;Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
